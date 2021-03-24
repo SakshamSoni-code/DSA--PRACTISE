@@ -25,7 +25,7 @@ the ranges is 4.
 #define ff first
 #define ss second
 #define ii pair<int,int>
-#define vi vector<int> 
+#define vi vector<int>  //
 #define vii vector<ii>
 #define ll long long
 #define l long
