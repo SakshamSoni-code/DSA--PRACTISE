@@ -47,7 +47,7 @@ bool canPlace(ll a[],ll n,ll c,ll sep)
 {
     ll loc=a[0],cows=1;
     
-    for(int i=0;i<n;i++)
+    for(int i=1;i<n;i++)
     {
         if(a[i]-loc>=sep)
         {
