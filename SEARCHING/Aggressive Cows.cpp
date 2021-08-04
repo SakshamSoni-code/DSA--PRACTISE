@@ -58,7 +58,7 @@ bool canPlace(ll a[],ll n,ll c,ll sep)
     }
     return false;
 }
-
+// t.c-> O(log(size of search space)*n)
 int32_t main() {
     
     fast;
