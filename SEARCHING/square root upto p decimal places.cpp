@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+// t.c-> O(logN) + O(9P)
 float square_root(int N,int P){
     int s = 0;
     int e = N ;
@@ -29,7 +29,7 @@ float square_root(int N,int P){
     for(int place=1;place<=P;place++){
 
     	//do linear search
-    	while(ans*ans <=N){
+    	while(ans*ans <=N){   // can run atmost 9 times
     		ans += inc;
     	}
 
