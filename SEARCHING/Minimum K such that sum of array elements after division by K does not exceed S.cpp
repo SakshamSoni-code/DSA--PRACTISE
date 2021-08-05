@@ -10,6 +10,9 @@ After dividing by 3, the array becomes
 Input: arr[] = {19, 17, 11, 10}, S = 40 
 Output: 2 */
 
+
+// t.c-> o(log(maxi)*n)  s.c->o(1)
+
 #include<bits/stdc++.h>
 using namespace std;
 
